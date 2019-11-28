@@ -29,7 +29,15 @@
     "eslint-config-vtex-react": "^4.1.0",
     "prettier": "^1.18.2",
     "tslint-eslint-rules": "^5.4.0",
-    "typescript": "3.5.2"
+    "typescript": "3.5.2",
+    "vtex.flex-layout": "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.flex-layout@0.13.1/public/@types/vtex.flex-layout",
+    "vtex.format-currency": "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.format-currency@0.1.2/public/@types/vtex.format-currency",
+    "vtex.device-detector": "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.device-detector@0.2.4/public/@types/vtex.device-detector",
+    "vtex.order-manager": "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.order-manager@0.6.6/public/@types/vtex.order-manager",
+    "vtex.render-runtime": "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.render-runtime@8.84.1/public/@types/vtex.render-runtime",
+    "vtex.formatted-price": "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.formatted-price@0.3.2/public/@types/vtex.formatted-price",
+    "vtex.styleguide": "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.styleguide@9.100.2/public/@types/vtex.styleguide",
+    "vtex.checkout-graphql": "https://types--checkoutio.myvtex.com/_v/private/typings/linked/v1/vtex.checkout-graphql@0.19.1+build1576691136/public/@types/vtex.checkout-graphql"
   },
   "version": "0.14.5"
 }
