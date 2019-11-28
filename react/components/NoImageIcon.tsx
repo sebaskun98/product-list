@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react'
 
 export class NoImageIcon extends PureComponent {
-  render() {
+  public render() {
     return (
       <svg
         width="96"
