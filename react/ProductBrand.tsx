@@ -15,9 +15,11 @@ const ProductBrand: FunctionComponent = () => {
   return (
     <div
       id={`brand-name-${item.id}`}
-      className={`ttu f7 fw6 c-muted-1 fw5-m ${opaque(item.availability)}`}
+      className={`ttu f7 fw6 c-muted-1 fw5-m ${opaque(
+        item.availability || undefined
+      )}`}
     >
-      {item.additionalInfo.brandName}
+      {item.additionalInfo && item.additionalInfo.brandName}
     </div>
   )
 }

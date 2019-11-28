@@ -19,9 +19,9 @@ const Price: StorefrontFunctionComponent<TextAlignProp> = ({ textAlign }) => {
 
   return (
     <div
-      className={`${opaque(item.availability)} ${styles.price} ${parseTextAlign(
-        textAlign
-      )}`}
+      className={`${opaque(item.availability || undefined)} ${
+        styles.price
+      } ${parseTextAlign(textAlign)}`}
     >
       <div>
         {item.listPrice !== item.price && (

@@ -1,4 +1,5 @@
 import React, { FunctionComponent } from 'react'
+import { Item } from 'vtex.checkout-graphql'
 
 import { useItemContext } from './components/ItemContext'
 import { NoImageIcon } from './components/NoImageIcon'
@@ -34,12 +35,17 @@ const Image: FunctionComponent = () => {
   return (
     <div
       id={`image-${item.id}`}
-      className={opaque(item.availability)}
+      className={opaque(item.availability || undefined)}
       style={{ width: '96px' }}
     >
-      <a href={item.detailUrl}>
+      <a href={item.detailUrl || undefined}>
         {imageUrl ? (
-          <img className="br2" alt={item.name} src={imageUrl} width="100%" />
+          <img
+            className="br2"
+            alt={item.name || undefined}
+            src={imageUrl}
+            width="100%"
+          />
         ) : (
           <NoImageIcon />
         )}

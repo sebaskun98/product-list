@@ -3,6 +3,7 @@ import { ExtensionPoint } from 'vtex.render-runtime'
 import { SizeMe } from 'react-sizeme'
 import { useDevice } from 'vtex.device-detector'
 import { useOrderForm } from 'vtex.order-manager/OrderForm'
+import { Item } from 'vtex.checkout-graphql'
 
 const MAX_MOBILE_WIDTH = 640
 

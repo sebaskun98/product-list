@@ -1,5 +1,6 @@
 import React from 'react'
 import { FormattedMessage } from 'react-intl'
+import { Item } from 'vtex.checkout-graphql'
 
 import { ItemContextProvider } from './components/ItemContext'
 import { AVAILABLE } from './constants/Availability'
